@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es5", "es6", "dom"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "types": ["bun-types"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./*"]
+    }
+  },
+  "include": ["./src/**/*.tsx", "./src/**/*.ts", "src/utils/env.ts"],
+  "exclude": ["node_modules", "test/**/*.ts"]
+}

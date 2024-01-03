@@ -1,0 +1,17 @@
+.env
+.env.example
+.git
+README.md
+LICENSE
+.gitignore
+.dockerignore
+.github/
+node_modules
+Dockerfile*
+docker-compose*
+.vscode
+Makefile
+helm-charts
+.editorconfig
+.idea
+coverage*
